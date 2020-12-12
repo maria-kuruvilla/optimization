@@ -1,0 +1,5 @@
+set timelimit 1200
+set logfile "C:\Users\Maria Kuruvilla\Documents\output\optimization\project_2_log1.log"
+read "C:\Users\Maria Kuruvilla\Documents\output\optimization\Output_project_2.cpx" lp
+mipopt
+write "C:\Users\Maria Kuruvilla\Documents\output\optimization\project_2_solution1.sol"
